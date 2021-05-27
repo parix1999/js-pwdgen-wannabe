@@ -12,7 +12,7 @@ h1{
     margin:50px auto 50px auto;
 }
 .bg{
-    background-color:lightgray;
+    background-image:url('../img/pattern.jpeg');
     padding:50px;
     display:flex;
     flex-direction: column;
@@ -22,14 +22,15 @@ h1{
 .content-container{
     width:50%;
     height:450px;
-    border:1px solid black;
+    border:1px solid white;
     display:flex;
     justify-content: space-around;
     flex-direction: column;
-    align-items: center;;
+    align-items: center;
+    color:white;
 }
 .layout{
-    border:1px solid black;
+    border:1px solid white;
     width:350px;
     height:40px;
     line-height:40px;
@@ -42,6 +43,4 @@ button{
     height:40px;
     border-radius:50px;
     color:white;
-
-
 }
